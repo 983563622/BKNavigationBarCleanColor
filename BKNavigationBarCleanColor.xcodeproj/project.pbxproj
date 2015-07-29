@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1852FBFF1B6866900042F661 /* navigationbar_button_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1852FBFE1B6866900042F661 /* navigationbar_button_background@2x.png */; };
 		18DC532A1B6787800028C071 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC53291B6787800028C071 /* main.m */; };
 		18DC532D1B6787800028C071 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC532C1B6787800028C071 /* AppDelegate.m */; };
-		18DC53301B6787800028C071 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC532F1B6787800028C071 /* ViewController.m */; };
 		18DC53331B6787800028C071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DC53311B6787800028C071 /* Main.storyboard */; };
 		18DC53351B6787800028C071 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DC53341B6787800028C071 /* Images.xcassets */; };
 		18DC53381B6787800028C071 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DC53361B6787800028C071 /* LaunchScreen.xib */; };
 		18DC53441B6787800028C071 /* BKNavigationBarCleanColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC53431B6787800028C071 /* BKNavigationBarCleanColorTests.m */; };
+		18DC53501B6787C90028C071 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC534F1B6787C90028C071 /* BaseTableViewController.m */; };
+		18DC53531B6788000028C071 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC53521B6788000028C071 /* MyTableViewController.m */; };
+		18DC53561B6788280028C071 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DC53551B6788280028C071 /* BaseNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +30,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1852FBFE1B6866900042F661 /* navigationbar_button_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationbar_button_background@2x.png"; sourceTree = "<group>"; };
 		18DC53241B67877F0028C071 /* BKNavigationBarCleanColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BKNavigationBarCleanColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DC53281B6787800028C071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18DC53291B6787800028C071 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18DC532B1B6787800028C071 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18DC532C1B6787800028C071 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18DC532E1B6787800028C071 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18DC532F1B6787800028C071 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18DC53321B6787800028C071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18DC53341B6787800028C071 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18DC53371B6787800028C071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		18DC533D1B6787800028C071 /* BKNavigationBarCleanColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BKNavigationBarCleanColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DC53421B6787800028C071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18DC53431B6787800028C071 /* BKNavigationBarCleanColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BKNavigationBarCleanColorTests.m; sourceTree = "<group>"; };
+		18DC534E1B6787C90028C071 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		18DC534F1B6787C90028C071 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		18DC53511B6788000028C071 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		18DC53521B6788000028C071 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		18DC53541B6788280028C071 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		18DC53551B6788280028C071 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +89,11 @@
 		18DC53261B67877F0028C071 /* BKNavigationBarCleanColor */ = {
 			isa = PBXGroup;
 			children = (
+				18DC534D1B6787AC0028C071 /* Base */,
 				18DC532B1B6787800028C071 /* AppDelegate.h */,
 				18DC532C1B6787800028C071 /* AppDelegate.m */,
-				18DC532E1B6787800028C071 /* ViewController.h */,
-				18DC532F1B6787800028C071 /* ViewController.m */,
+				18DC53511B6788000028C071 /* MyTableViewController.h */,
+				18DC53521B6788000028C071 /* MyTableViewController.m */,
 				18DC53311B6787800028C071 /* Main.storyboard */,
 				18DC53341B6787800028C071 /* Images.xcassets */,
 				18DC53361B6787800028C071 /* LaunchScreen.xib */,
@@ -96,6 +105,7 @@
 		18DC53271B6787800028C071 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1852FBFE1B6866900042F661 /* navigationbar_button_background@2x.png */,
 				18DC53281B6787800028C071 /* Info.plist */,
 				18DC53291B6787800028C071 /* main.m */,
 			);
@@ -117,6 +127,17 @@
 				18DC53421B6787800028C071 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18DC534D1B6787AC0028C071 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				18DC534E1B6787C90028C071 /* BaseTableViewController.h */,
+				18DC534F1B6787C90028C071 /* BaseTableViewController.m */,
+				18DC53541B6788280028C071 /* BaseNavigationController.h */,
+				18DC53551B6788280028C071 /* BaseNavigationController.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +222,7 @@
 			files = (
 				18DC53331B6787800028C071 /* Main.storyboard in Resources */,
 				18DC53381B6787800028C071 /* LaunchScreen.xib in Resources */,
+				1852FBFF1B6866900042F661 /* navigationbar_button_background@2x.png in Resources */,
 				18DC53351B6787800028C071 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +241,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DC53301B6787800028C071 /* ViewController.m in Sources */,
 				18DC532D1B6787800028C071 /* AppDelegate.m in Sources */,
+				18DC53501B6787C90028C071 /* BaseTableViewController.m in Sources */,
 				18DC532A1B6787800028C071 /* main.m in Sources */,
+				18DC53531B6788000028C071 /* MyTableViewController.m in Sources */,
+				18DC53561B6788280028C071 /* BaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +440,7 @@
 				18DC53491B6787800028C071 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18DC534A1B6787800028C071 /* Build configuration list for PBXNativeTarget "BKNavigationBarCleanColorTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +449,7 @@
 				18DC534C1B6787800028C071 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

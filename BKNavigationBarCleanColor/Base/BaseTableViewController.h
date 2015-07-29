@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BaseTableViewController.h
 //  BKNavigationBarCleanColor
 //
 //  Created by apple on 15/7/28.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BaseTableViewController : UITableViewController
 
 @end
-
